@@ -1,58 +1,97 @@
 ---
 name: leonardo-synthesis
-description: Apply Leonardo da Vinci inspired polymath synthesis for cross-domain analogical reasoning, proportional design, and systems thinking. Use when solving problems that span science, engineering, anatomy, architecture, or nature, when seeking non-obvious analogies, designing with classical proportions and constraints, or modeling coupled systems. Triggers include analogical reasoning, Vitruvian proportions, cross-domain transfer, systems analogy, Leonardo method, polymath problem solving.
+description: Solve problems the Leonardo da Vinci way — by connecting ideas across different fields like the body, machines, buildings, water, and nature. Use when you need creative solutions, better designs, or fresh analogies that normal single-field thinking misses. Triggers include cross-domain thinking, analogies, proportions, systems design, Leonardo method, polymath problem solving.
 ---
 
-# Leonardo Synthesis
+# Leonardo Synthesis (Modern Version)
 
-## Overview
+## What this skill does
 
-Provides structured methods and executable tools drawn from the synthesis of Leonardo's library (Euclid, Archimedes, Vitruvius, Aristotle, Alberti, Avicenna, Theophrastus, Frontinus, etc.). Enables continuous reasoning across geometry, mechanics, anatomy, hydraulics, architecture, and natural philosophy instead of siloed domain thinking.
+Most people (and most AI) solve problems inside one box:  
+“This is an engineering problem” or “This is a design problem” or “This is a biology problem.”
 
-## Core Principles (apply always)
+Leonardo looked at the same problem through many boxes at once — the human body, rivers, buildings, machines, and geometry.  
+This skill forces that same multi-box thinking so you get smarter, more surprising solutions.
 
-1. Treat domains as continuous — map ratios, forces, flows, and forms interchangeably between body, machine, building, and nature.
-2. Prefer proportional and constraint-based solutions over unconstrained generation.
-3. Combine classical knowledge with empirical checking (simulate or reason about observation).
-4. Prefer visual / structural analogies over pure verbal ones.
-5. Seek the non-obvious bridge that unifies multiple books from the corpus.
+## When to use it
 
-## Instructions
+- You are stuck designing something (product, system, building, process)
+- You want a fresh angle on a hard problem
+- You need a design that feels natural, balanced, and efficient
+- You want to explain a complex system simply by comparing it to something familiar
 
-When activated:
+## Easy real-world examples
 
-- Identify the primary domain of the user problem and at least two secondary domains from Leonardo's corpus (geometry/mechanics, anatomy/physiology, hydraulics/water, architecture/structures, natural philosophy).
-- Generate 2-4 high-quality analogies using the mapping method below.
-- Apply proportional constraints where design or geometry is involved.
-- Use the provided scripts for concrete computation when ratios, equilibrium, or simple system models are needed.
-- Always output both the analogy and the actionable insight or design implication.
-- Prefer solutions that could be drawn or physically constructed.
+### Example 1: Designing a better water bottle
+**Normal thinking:** Make it leak-proof, light, and cheap.  
 
-### Analogical Mapping Method
+**Leonardo thinking:**  
+- Look at the human heart and blood vessels (how they handle pressure changes)  
+- Look at rivers and lakes (how nature stores and releases water)  
+- Look at classical arches and domes (how they stay strong with little material)  
 
-1. Extract structural elements (parts, relations, ratios, forces, flows).
-2. Map them onto a target domain using shared primitives — ratio, lever, vessel, channel, balance, growth, equilibrium.
-3. Test the mapping for predictive power — does it suggest a new experiment, design, or explanation?
-4. Rank analogies by explanatory reach and constructibility.
+**Better idea that appears:** A bottle that flexes slightly under pressure like a blood vessel, has a soft “reservoir” zone, and uses a shape based on classical proportions so it feels good in the hand and stands stably.
 
-### Proportional Design Rules (Vitruvian + Archimedean bias)
+### Example 2: Fixing traffic jams in a city
+**Normal thinking:** Add more roads or better traffic lights.  
 
-- Prefer whole-number or simple fractional ratios (1:2, 2:3, 3:4, 5:8, golden-section approximations).
-- Check static equilibrium and center-of-gravity implications for any structure or mechanism.
-- Scale human-body or natural forms first, then abstract.
+**Leonardo thinking:**  
+- Blood circulation (how the body avoids clots and uses parallel paths)  
+- River systems (how water finds multiple routes around obstacles)  
+- Building structures (how load is shared across many supports)  
 
-### When to call scripts
+**Better idea that appears:** Multiple smaller parallel routes, temporary “reservoir” waiting zones, and balanced capacity so no single road becomes a bottleneck.
 
-- `scripts/analogy_mapper.py` — structured cross-domain mapping and ranking.
-- `scripts/proportion_checker.py` — validate or generate proportional dimensions and equilibrium.
-- `scripts/systems_analogy.py` — simple coupled-system reasoning (flow, force, capacity).
+### Example 3: Making a chair that doesn’t hurt your back
+**Normal thinking:** Add more cushion or lumbar support.  
 
-## Output Format
+**Leonardo thinking:**  
+- Human spine and muscle balance  
+- Tree branches and how they distribute weight  
+- Classical columns and arches that stay stable under load  
 
-Always structure the response as:
+**Better idea that appears:** A chair whose proportions follow natural ratios (golden ratio or 2:3), with support that works like a well-balanced skeleton and slight flex like living wood.
 
-**Domain Bridge**  
-**Strongest Analogy**  
-**Proportional / Mechanical Implications**  
-**Actionable Design or Experiment**  
-**Why this is stronger than siloed reasoning**
+### Example 4: Designing a team workflow or app
+**Normal thinking:** Add more features or stricter rules.  
+
+**Leonardo thinking:**  
+- How blood flows without getting stuck  
+- How rivers branch and rejoin  
+- How a well-designed building distributes weight  
+
+**Better idea that appears:** Create parallel work paths, temporary storage/buffer zones, and clear “pressure relief” points so the system stays balanced under heavy load.
+
+## The 3 simple tools inside the skill
+
+1. **Analogy Mapper**  
+   Takes your problem and finds useful comparisons in the body, water systems, buildings, and machines.
+
+2. **Proportion Checker**  
+   Checks whether the sizes and ratios in your design feel “right” using ratios humans have loved for centuries (golden ratio, 2:3, 3:5, etc.).
+
+3. **Systems Analogy**  
+   Treats any system (app, factory, city, product, team) as a network of pumps, channels, and storage — the same way Leonardo thought about both blood and rivers.
+
+## How to use it yourself in 5 steps
+
+1. Write down the problem in one sentence.
+2. Ask: “How does the human body already solve something similar?”
+3. Ask: “How does nature (rivers, trees, animals) solve it?”
+4. Ask: “How would a great building or machine solve it?”
+5. Combine the best ideas and check that the proportions feel balanced and natural.
+
+## Preferred answer style
+
+When this skill is active, answers should look like this:
+
+**The bridge** — which fields were connected  
+**The strongest analogy** — the most useful comparison  
+**Why it works** — the practical reason in plain language  
+**What to do next** — a concrete design idea or small experiment  
+
+## Why this is better than normal thinking
+
+Normal experts and normal AI stay inside one field and give safe, expected answers.  
+This skill deliberately jumps between fields the way Leonardo did.  
+The result is solutions that feel both surprising and obvious once you see them — and they usually work better in the real world because they respect how nature and the body already solve the same problems.
